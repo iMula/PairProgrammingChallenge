@@ -8,22 +8,22 @@ let car = {
     mileage: 237,    
 
     driveToWork: () => {
-        alert(`Old mileage is ${car.mileage}`);
-        car.mileage = car.mileage + 30;
-        console.log(`You drove to work, your new mileage is ${car.mileage}`);
+        //alert(`Old mileage is ${car.mileage}`);
+        car.Newmileage = car.mileage + 40;
+        console.log(`You drove to work, your new mileage is ${car.Newmileage}`);
     },
     driveAroundTheWorld: () => {
-        alert(`Old Mileage ${car.mileage}`);
-        car.mileage = car.mileage + 27000;
-        console.log(`You drove around the world, your new mileage is ${car.mileage}`);
+        //alert(`Old Mileage ${car.mileage}`);
+        car.Newmileage = car.mileage + 27000;
+        console.log(`You drove around the world, your new mileage is ${car.Newmileage}`);
         
     },
     runErrands: () => {
-        alert(`Old mileage is ${car.mileage}`);
-        car.mileage = car.mileage + 25;
-        console.log(`You ran your errands, your new mileage is ${car.mileage}`);
+        //alert(`Old mileage is ${car.mileage}`);
+        car.Newmileage = car.mileage + 25;
+        console.log(`You ran your errands, your new mileage is ${car.Newmileage}`);
     }
 }
-console.log(car.driveToWork);
-console.log(car.driveAroundTheWorld);
-console.log(car.runErrands);
+car.driveToWork();
+car.driveAroundTheWorld();
+car.runErrands();
